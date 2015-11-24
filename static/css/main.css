@@ -1,0 +1,43 @@
+#memchart svg {
+  height: 400px;
+  width: 400px;
+}
+
+#cpuchart svg {
+  height: 400px;
+  width: 400px;
+}
+
+
+@-webkit-keyframes change-color {
+  
+  25%   { background-color: blue; }
+  50%   { background-color: yellow; }
+  75% { background-color: green; }
+  100%   { background-color: white; }
+}
+@-moz-keyframes change-color {
+  25%   { background-color: blue; }
+  50%   { background-color: yellow; }
+  75% { background-color: green; }
+  100%   { background-color: white; }
+}
+@-o-keyframes change-color {
+  25%   { background-color: blue; }
+  50%   { background-color: yellow; }
+  75% { background-color: green; }
+  100%   { background-color: white; }
+}
+@keyframes change-color {
+  25%   { background-color: blue; }
+  50%   { background-color: yellow; }
+  75% { background-color: green; }
+  100%   { background-color: white; }
+}
+
+.animated {
+  -webkit-animation: change-color 5s infinite; /* Safari 4+ */
+  -moz-animation:    change-color 5s infinite; /* Fx 5+ */
+  -o-animation:      change-color 5s infinite; /* Opera 12+ */
+  animation:         change-color 5s infinite; /* IE 10+ */
+}

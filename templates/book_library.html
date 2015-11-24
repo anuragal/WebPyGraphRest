@@ -1,0 +1,16 @@
+$def with (title, name, content)
+$var title:$title
+$var name:$name
+<div class="col-md-12">
+    <span id="lblError"></span>
+</div>
+<div class="col-md-12">
+    <button type='button' class='btn btn-primary' onclick="get_book_list();">Book List</button>
+    <input type="text" id="txtBookName" name="book_name"/>
+    <button type='button' class='btn btn-primary' onclick="add_book();">Add Book</button>
+    <button type='button' class='btn btn-primary' onclick="delete_book();">Delete Book</button>
+</div>
+<div class="col-md-12">&nbsp;</div>
+<div class="col-md-12">
+    <span id="ctrlBookList"></span>
+</div>

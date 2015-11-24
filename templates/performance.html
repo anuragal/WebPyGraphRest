@@ -1,0 +1,19 @@
+$def with (title, name, content)
+$var title:$title
+$var name:$name
+<div class="col-md-12">
+    <div class="col-md-6">
+        <p>Memory Usage Stats in MB</p>
+    </div>
+    <div class="col-md-6">
+        <p>All CPU Usage Stats in %</p>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="col-md-6" id="memchart">
+        <svg></svg>
+    </div>
+    <div class="col-md-6" id="cpuchart">
+        <svg></svg>
+    </div>
+</div>
