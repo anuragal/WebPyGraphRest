@@ -11,12 +11,13 @@
 
 ##Installation
 
-1. Create virtual Environment
-2. Install libraries using pip
+1. Clone the repository
+2. Create virtual Environment
+3. Install libraries using pip
 
      ```$pip install -r requirements.txt```
 
-3. Activate virtual environment
-4. Run the application
+4. Activate virtual environment
+5. Run the application
     
      ```$python wsgi.py```
