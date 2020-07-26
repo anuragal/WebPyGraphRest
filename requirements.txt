@@ -1,2 +1,2 @@
-psutil==3.2.2
+psutil==5.6.6
 web.py==0.37
